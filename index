@@ -8,3 +8,43 @@
     <title>Electricity Calculator</title>
     
 </head>
+<body>
+
+    <!-- Main -->
+    <main>
+        
+        <!-- Form - Input Values -->
+        <div id="form">
+            <h1>Calculate Form</h1>
+            <span id="msgError"></span>
+            <form name="calculator" id="form">
+                <label>Number of Units</label>
+                
+                <label>Billing Period (Days)</label>
+            </form>
+        </div>
+        
+
+        <!-- Result of values -->
+        <div id="result">
+            <h1>Result</h1>
+            <div id="containerResult">
+                <div>
+                    <h2>Amount of bill without</h2>
+                    <span id="vat">0.00</span>
+                </div>
+                <div>
+                    <h2>Total payable amount including</h2>
+                    <span id="vatTotal">0.00</span>
+                </div>
+            </div>
+        </div>
+    </main> 
+    <!-- Footer -->
+    <footer>
+        <span>Calculator Project</span>
+        <span>Students: Heber and Marcelo</span>
+    </footer>
+</body>
+<script src="js/calculator.js"></script>
+</html>
